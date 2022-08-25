@@ -1,6 +1,6 @@
 
-// problem link - https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/
-int countOdds(int low, int high) {
+// problem link - https://leetcode.com/problems/count-odd-numbers-in-an-interval-range
+  int countOdds(int low, int high) {
         /*int count=0;
          for(;low<=high;++low){    // brute force solution
              if(low%2!=0)
