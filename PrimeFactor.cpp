@@ -7,7 +7,7 @@ int main()
   for(int i=2;i<=number;i++)
   {
     if(number%i==0){ prime_factors.push_back(i);}
-  } cout<<"Factors are : ";
+  } cout<<"Factors are : "; //printf("Factors of %d are : ",number)
    for (auto display : prime_factors)
     cout<<display<<' ';
   return 0;
